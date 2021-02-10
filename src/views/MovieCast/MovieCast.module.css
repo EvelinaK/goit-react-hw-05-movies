@@ -1,0 +1,69 @@
+.listWrapper {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.list {
+  background: $white;
+  border-radius: 2px;
+  list-style: none;
+  padding: 10px 20px;
+}
+.list-wrapper {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.list {
+
+  border-radius: 2px;
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.listItem {
+  display: flex;
+  margin: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.listItem:last-child {
+  border-bottom: none;
+}
+.listItemImage {
+  border-radius: 50%;
+  width: 64px;
+}
+.listItemCont {
+  margin-left: 20px;
+}
+
+
+.actorNameFolder {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.actorNameFolder::before {
+  content: '';
+  background-color: palevioletred;
+  display: inline-block;
+  width: 30px;
+  height: 4px;
+}
+
+.actorName {
+  font-weight: 700;
+  margin: 6px 4px;
+}
+
+.actorCharacter {
+  margin: 4px auto;
+  font-size: 12px;
+}

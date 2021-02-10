@@ -1,0 +1,16 @@
+  
+.NavLink {
+       font-size: 30px;
+       font-weight: 500;
+       color: rgb(92, 178, 212);
+       margin: 10px;
+       text-decoration: none;
+     }
+    
+.activeLink {
+       color: palevioletred;
+       text-decoration: none;
+ }
+ .NavLink:hover {
+    text-decoration: none;
+  }

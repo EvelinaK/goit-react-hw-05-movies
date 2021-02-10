@@ -1,0 +1,43 @@
+castFolder {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .listElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+  }
+  
+  .actorNameFolder {
+    font-size: 16px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .actorNameFolder::before {
+    content: "";
+    background-color: palevioletred;
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+  }
+  
+  .actorName {
+    font-weight: 700;
+    margin: 6px 4px;
+  }
+  
+  .actorCharacter {
+    margin: 4px auto;
+    font-size: 12px;
+  }
